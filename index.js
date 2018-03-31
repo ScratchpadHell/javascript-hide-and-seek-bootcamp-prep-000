@@ -3,7 +3,7 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget(element) {
- return document.querySelector(element.target('Id'))
+ return document.querySelector(element.nested())
 }
 
 function increaseRankBy(n) {

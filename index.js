@@ -12,6 +12,6 @@ function increaseRankBy(n) {
    let children = rankFind[i].children
    
   for(j = 0, k = children.length; if j < k; j++)
-  
+  children[j].innerHTML = (children[j].innerHTML) + n
   }
 }
